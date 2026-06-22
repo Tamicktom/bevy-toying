@@ -2,7 +2,7 @@
 use bevy::prelude::{App, DefaultPlugins, Startup, Update};
 
 //* Local imports
-mod camera;
+mod camera; //* Import `camera` from `camera.rs`
 mod components;
 mod constants;
 mod fps;

@@ -1,5 +1,9 @@
+//* Libraries imports
 use bevy::diagnostic::{DiagnosticsStore, FrameTimeDiagnosticsPlugin};
-use bevy::prelude::*;
+use bevy::prelude::{
+    App, Color, Commands, Component, Entity, GlobalZIndex, Node, Plugin, PositionType, Query, Res,
+    Startup, TextColor, TextFont, Update, Val, With, default,
+};
 use bevy::text::TextSpan;
 use bevy::ui::widget::{Text, TextUiWriter};
 
